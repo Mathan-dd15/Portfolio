@@ -657,11 +657,9 @@ html {
     #BloodDonor h6,#Assistant h6,#game h6{
         color: #0ef;
         margin-top: 2%;
-        
         text-decoration: underline 1px;
     }
     #BloodDonor #demo{
-        font-size:5px;
         font-style: italic;
         font-style: bold;
         
