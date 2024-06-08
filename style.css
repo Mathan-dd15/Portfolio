@@ -306,7 +306,6 @@ html {
     width: 450px;
     padding: 2%;
     margin-left: 33%;
-    
     transform-style: preserve-3d;
     transition: transform 0.6s;
     h6{
@@ -528,6 +527,7 @@ html {
 }
 
 
+
 @media (max-width:677px){
     .navbar{
         display: none;
@@ -594,7 +594,7 @@ html {
     
 
     #About_section{
-        height: 1300px;
+        height: auto;
         margin-top: 80px;
 
     }
@@ -640,8 +640,6 @@ html {
         width: 400px;
         height: 200px;
         margin-bottom: -30%;
-        
-     
     }
     #skills p{
         font-size: 12px;
@@ -652,16 +650,14 @@ html {
     }
     #BloodDonor p, #Assistant p,#game p{
         color: white;
-        font-size: 4px;
+        font-size: 12px;
         text-align: justify;
         margin-top: 2%;
-    
-    
     }
     #BloodDonor h6,#Assistant h6,#game h6{
         color: #0ef;
         margin-top: 2%;
-        font-size: 4px;
+        
         text-decoration: underline 1px;
     }
     #BloodDonor #demo{
@@ -670,8 +666,13 @@ html {
         font-style: bold;
         
     }
+    #Project{
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .box{
-        width:30%;
+        width:90%;
         height: auto;
         margin-top: 3%;
         background-color: #0a2e29 ;
